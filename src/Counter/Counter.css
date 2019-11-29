@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.number {
+
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background: lightgrey;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: inline;
+    height: 14px;
+    width: 40px;
+}
+
+.add-button {
+    background: lightgreen;
+}
+
+.remove-button {
+    background: lightcoral; 
+}
+
+.reset-button {
+    background: lightblue;
+}
+
+.even {
+    background: blue;
+}
+
+.odd {
+    background: red;
+}
